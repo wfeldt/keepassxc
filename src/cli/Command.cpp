@@ -30,6 +30,7 @@
 #include "Estimate.h"
 #include "Extract.h"
 #include "Generate.h"
+#include "Import.h"
 #include "List.h"
 #include "Locate.h"
 #include "Merge.h"
@@ -79,6 +80,7 @@ void populateCommands()
         commands.insert(QString("estimate"), new Estimate());
         commands.insert(QString("extract"), new Extract());
         commands.insert(QString("generate"), new Generate());
+        commands.insert(QString("import"), new Import());
         commands.insert(QString("locate"), new Locate());
         commands.insert(QString("ls"), new List());
         commands.insert(QString("merge"), new Merge());

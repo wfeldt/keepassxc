@@ -21,6 +21,7 @@
 #include "core/Database.h"
 #include "core/Metadata.h"
 #include "core/TimeInfo.h"
+#include "core/Group.h"
 
 #include <QCoreApplication>
 #include <QPair>
